@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rase Diet - Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Paneli</h1>
+    </header>
+    <main>
+        <section id="manage-packages">
+            <h2>Program Yönetimi</h2>
+            <form id="program-form">
+                <label for="program-name">Program Adı:</label>
+                <input type="text" id="program-name" required>
+
+                <label for="program-price">Fiyat (TL):</label>
+                <input type="number" id="program-price" required>
+
+                <button type="submit">Programı Ekle/Düzenle</button>
+            </form>
+            <h3>Mevcut Programlar</h3>
+            <ul id="program-list"></ul>
+        </section>
+        <section id="manage-users">
+            <h2>Kullanıcı Yönetimi</h2>
+            <!-- Kullanıcı yönetimi arayüzü -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rase Diet. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="admin-scripts.js"></script>
+</body>
+</html>
